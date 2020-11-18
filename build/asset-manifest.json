@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BeerBuddy/static/css/main.14d8f4d9.chunk.css",
+    "main.js": "/BeerBuddy/static/js/main.b4b4e86c.chunk.js",
+    "main.js.map": "/BeerBuddy/static/js/main.b4b4e86c.chunk.js.map",
+    "runtime-main.js": "/BeerBuddy/static/js/runtime-main.0e7b2749.js",
+    "runtime-main.js.map": "/BeerBuddy/static/js/runtime-main.0e7b2749.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/BeerBuddy/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.15ccf92a.chunk.js": "/BeerBuddy/static/js/2.15ccf92a.chunk.js",
+    "static/js/2.15ccf92a.chunk.js.map": "/BeerBuddy/static/js/2.15ccf92a.chunk.js.map",
+    "index.html": "/BeerBuddy/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/BeerBuddy/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.14d8f4d9.chunk.css.map": "/BeerBuddy/static/css/main.14d8f4d9.chunk.css.map",
+    "static/js/2.15ccf92a.chunk.js.LICENSE.txt": "/BeerBuddy/static/js/2.15ccf92a.chunk.js.LICENSE.txt",
+    "static/media/emptystar.500aa98b.png": "/BeerBuddy/static/media/emptystar.500aa98b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e7b2749.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.15ccf92a.chunk.js",
+    "static/css/main.14d8f4d9.chunk.css",
+    "static/js/main.b4b4e86c.chunk.js"
+  ]
+}
