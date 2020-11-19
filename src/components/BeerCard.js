@@ -222,22 +222,20 @@ class BeerCard extends React.Component{
         this.props.handleStar(this.props.favs, likes)
     }
 
-    checkIfFavorite(){
-
-    }
-
-    componentDidUpdate(prevProps){
-        if(prevProps.page !== this.props.page){
-            for(var i = 0 ; i< this.props.favs.length; i++){
-                if(this.props.favs[i].id === this.props.beer.id) {
-                    this.setState({like: false, star :fullstar }) 
-                    return
-
-                }
-            
+    updateView(){
+        for(var i = 0 ; i< this.props.favs.length; i++){
+            if(this.props.favs[i].id === this.props.beer.id) {
+                this.setState({like: false, star :fullstar }) 
+                return
             }
-        this.setState({like: true, star : emptystar })
         }
+        this.setState({like: true, star : emptystar })
+    }
+    componentDidMount(){
+        if(!this.props.isfavr){this.updateView()}
+    }
+    componentDidUpdate(prevProps){
+        if(prevProps.page !== this.props.page){this.updateView()} 
     }
 
     render() {
