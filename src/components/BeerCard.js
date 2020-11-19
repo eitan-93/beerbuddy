@@ -261,7 +261,6 @@ class BeerCard extends React.Component{
                     </ModalStyledStar>
             <CardWrapper>
                     <Card.Body>
-                            {/* {this.props.isfavr ? <HoverRating name ={beerArray[this.props.index].id} size="small"/> : <div></div>} */}
                             <ModalNameText><Card.Title >{beerArray[this.props.index].name}</Card.Title></ModalNameText>
                             <ModalCardText><Card.Text>{beerArray[this.props.index].description}</Card.Text></ModalCardText>
                             <br/>
